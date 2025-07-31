@@ -1,2 +1,58 @@
-X_dyson.npy
-y_dyson.npy
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.npy
+*.npz
+*.h5
+*.keras
+
+# Model files
+best_cnn_model.h5
+best_cnn_model.keras
+multihead_cnn_model_30K.h5
+
+# Logs
+experiment_log_*.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Drive
+/content/drive/
